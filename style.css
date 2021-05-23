@@ -1,0 +1,71 @@
+body{
+    background-color: cornsilk;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+}
+#main{
+    background-color: darkgrey;
+    
+    border-radius: 5px;
+    margin:20px;
+
+}
+
+
+h1{
+   display: block;
+   margin:auto;
+   text-align: center;
+   font-size: 3rem;
+   
+}
+
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+#img-div{
+    background-color: white;
+    
+    padding: 20px;
+    margin: 0 20px;
+    
+}
+img{
+max-width: 100%;
+display: block;
+height: auto;
+margin: 0 auto;
+
+}
+
+figcaption{
+    font-weight: bold;
+    margin:12px 0px 0px 0px;
+}
+
+ul{
+    max-width:550px;
+    text-align: left;
+    margin:0px auto 50px auto;
+   
+   
+}
+
+li{
+    display: list-item;
+    margin:40px;
+    font-size: 1.3rem;
+    
+}
+
+blockquote,cite{
+    font-style: italic;
+}
+
+h3{
+    padding: 0px 0px 20px 0px;
+}
