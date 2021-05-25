@@ -1,71 +1,118 @@
-body{
-    background-color: cornsilk;
-    font-family: 'Noto Serif', serif;
-    text-align: center;
+body {
+  background-color: cornsilk;
+  /* background-color: red; */
+  font-family: "Noto Serif", serif;
+  text-align: center;
 }
-#main{
-    background-color: darkgrey;
-    
-    border-radius: 5px;
-    margin:20px;
+#main {
+  background-color: darkgrey;
 
-}
-
-
-h1{
-   display: block;
-   margin:auto;
-   text-align: center;
-   font-size: 3rem;
-   
+  border-radius: 5px;
+  margin: 20px;
 }
 
-p{
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
+#tribute-info {
+  /* width: auto; */
 }
 
+h1 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 3rem;
+}
 
-#img-div{
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#img-div {
+  background-color: white;
+
+  padding: 20px;
+  margin: 0 20px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: bold;
+  margin: 12px 0px 0px 0px;
+}
+
+ul {
+  max-width: 550px;
+  text-align: left;
+  margin: 0px auto 50px auto;
+}
+
+li {
+  display: list-item;
+  margin: 40px;
+  font-size: 1.3rem;
+}
+
+blockquote,
+cite {
+  font-style: italic;
+}
+
+h3 {
+  padding: 0px 0px 20px 0px;
+}
+
+@media only screen and (max-width: 300px) and (min-width: 140px) {
+  /* h1 {
+    margin-left: 888px;
+  } */
+  #img-div {
     background-color: white;
-    
-    padding: 20px;
-    margin: 0 20px;
-    
-}
-img{
-max-width: 100%;
-display: block;
-height: auto;
-margin: 0 auto;
+    padding: 7px;
+    margin: auto;
+    width: 80vw;
 
-}
+    /* position: relative; */
+    /* height: 27px; */
+  }
 
-figcaption{
-    font-weight: bold;
-    margin:12px 0px 0px 0px;
-}
-
-ul{
-    max-width:550px;
-    text-align: left;
-    margin:0px auto 50px auto;
-   
-   
+  #main {
+    width: 140vw;
+    margin: auto;
+    /* margin-bottom: 20px; */
+    /* margin-right: 2px; */
+    /* padding: 10/px; */
+    /* position: relative; */
+  }
 }
 
-li{
-    display: list-item;
-    margin:40px;
-    font-size: 1.3rem;
-    
+@media only screen and (max-width: 140px) and (min-width: 90px) {
+  #main {
+    width: 140vw;
+  }
+
+  #img-div {
+    background-color: white;
+    padding: 7px;
+    margin: auto;
+    width: 60vw;
+  }
 }
 
-blockquote,cite{
-    font-style: italic;
-}
+@media only screen and (max-width: 90px) and (min-width: 50px) {
+  #main {
+    width: 312vw;
+  }
 
-h3{
-    padding: 0px 0px 20px 0px;
+  #img-div {
+    background-color: white;
+    padding: 7px;
+    margin: auto;
+    width: 180vw;
+  }
 }
